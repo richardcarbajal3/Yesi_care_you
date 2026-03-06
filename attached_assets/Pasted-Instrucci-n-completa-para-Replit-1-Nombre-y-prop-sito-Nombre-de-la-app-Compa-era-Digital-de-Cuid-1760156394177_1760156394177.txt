@@ -1,0 +1,139 @@
+Instrucción completa para Replit
+1️⃣ Nombre y propósito
+
+Nombre de la app: Compañera Digital de Cuidado
+
+Usuario: Yessica Yupanqui Alvites
+
+Propósito: Acompañar al paciente en su proceso de cuidado diario, con motivación lúdica y apoyo empático. Funciona como coach digital + apoyo emocional.
+
+Funcionalidades clave:
+
+Mensajes motivacionales diarios
+
+Seguimiento de retos y puntos
+
+Visualización de progreso
+
+Historial de evolución del paciente
+
+Pantalla de “camino dual” mostrando esfuerzo personal y apoyo externo
+
+2️⃣ Pantallas clave y componentes
+Pantalla 1: Bienvenida
+
+Logo de la app.
+
+Lema: "Cuidar es acompañar".
+
+Botón: “Continuar” → lleva a “Tu cuidado hoy”.
+
+Pantalla 2: Tu cuidado hoy
+
+Mensaje diario cálido: "Hoy seguimos avanzando, paso a paso".
+
+Barra de progreso del plan de cuidado.
+
+Reto diario con call-to-action:
+
+Ejemplo: "Mantén tu brazo relajado 10 min después de la aplicación".
+
+Botón: marcar como completado.
+
+Comportamiento:
+
+Cada reto completado suma puntos.
+
+Si no se completa, mensaje empático: "No pasa nada, mañana seguimos".
+
+Pantalla 3: Retos lúdicos
+
+Lista de retos completados y pendientes.
+
+Puntos acumulados.
+
+Desbloqueo de mensajes motivacionales o insignias.
+
+Pantalla 4: Cuidado óptimo
+
+Gráfico de consistencia: calendario con días completados en verde.
+
+Mensajes de reconocimiento al cumplir hitos: "Tu compromiso es tu mejor medicina".
+
+Pantalla 5: Perfil y evolución
+
+Nombre: "Yessica Yupanqui Alvites".
+
+Historial de citas, retos completados, puntos e insignias.
+
+Pantalla 6: Mi camino de cuidado dual
+
+Dos trayectorias paralelas y lado a lado:
+
+Esfuerzo personal del paciente (retos, hábitos diarios)
+
+Apoyo de terceros (tratamientos, vitaminas, citas)
+
+Visualización de cómo ambos esfuerzos contribuyen al progreso global.
+
+Indicadores de avance y logros.
+
+3️⃣ Funcionalidades clave dentro de Replit
+
+Persistencia de datos en Replit: guardar retos completados, puntos, logros y progreso.
+
+Motivación lúdica y empática:
+
+Retos diarios
+
+Mensajes positivos si un reto no se completa
+
+Insignias y mensajes motivacionales al cumplir objetivos
+
+Visualización de progreso:
+
+Barra de progreso diaria
+
+Calendario de consistencia
+
+Caminos paralelos de esfuerzo y apoyo externo
+
+Interacciones del usuario:
+
+Marcar retos como completados
+
+Ver puntos acumulados
+
+Consultar historial de citas y evolución
+
+Notificaciones y recordatorios dentro de la app (simulados en frontend)
+
+4️⃣ Estilo visual y UX
+
+Tonos cálidos y cercanos.
+
+Interfaz clara, intuitiva y amigable.
+
+Botones grandes, barras de progreso visibles, gráficos interactivos.
+
+Caminos paralelos en “Mi camino de cuidado dual”.
+
+Experiencia motivadora y empática.
+
+5️⃣ Flujo de la app
+
+Usuario abre la app → Pantalla de Bienvenida
+
+Continúa a → Pantalla “Tu cuidado hoy”
+
+Desde aquí puede navegar a:
+
+Retos lúdicos
+
+Cuidado óptimo
+
+Perfil y evolución
+
+Mi camino de cuidado dual
+
+Todas las interacciones se registran automáticamente dentro de Replit como base de datos interna, permitiendo que la app recuerde avances y puntos aunque se cierre la sesión.
