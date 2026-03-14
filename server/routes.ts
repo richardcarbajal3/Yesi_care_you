@@ -8,6 +8,11 @@ import { z } from "zod";
 import { insertPatientSchema, insertChallengeSchema, insertSupportActivitySchema, insertCareProgramSchema, insertProgramStepSchema, insertSupportMessageSchema } from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Health check (before auth, no authentication required)
+  app.get('/api/health', (_req, res) => {
+    res.json({ status: "ok" });
+  });
+
   // Auth middleware
   await setupAuth(app);
 

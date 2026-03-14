@@ -34,7 +34,12 @@ export function getSession() {
           tableName: "sessions",
     });
     return session({
-          secret: process.env.SESSION_SECRET || "fallback-secret-change-in-production",
+          secret: process.env.SESSION_SECRET || (() => {
+        if (process.env.NODE_ENV === "production") {
+          console.error("WARNING: SESSION_SECRET not set in production. Set it in your environment variables.");
+        }
+        return "fallback-secret-change-in-development-only";
+      })(),
           store: sessionStore,
           resave: false,
           saveUninitialized: false,
